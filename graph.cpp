@@ -1,5 +1,6 @@
 #include<bits/stdc++.h>
 #include"node.h"
+#include"heap.h"
 using namespace std;
 
 
@@ -18,6 +19,9 @@ int main(){
       obj->make_graph(5000,1000);
       obj->write_to_txt("graph1.txt");
       break;
+    }
+    case 3:{
+
     }
 
 }
